@@ -1,6 +1,6 @@
 package it.arteprogrammazione.tocook.oop;
 
-public final class PastaCorta extends PastaAstratta {
+final class PastaCorta extends PastaAstratta {
 
     private boolean minuta;
 

@@ -1,6 +1,6 @@
 package it.arteprogrammazione.tocook.oop;
 
-public class PastaLunga extends PastaAstratta {
+class PastaLunga extends PastaAstratta {
 
     //Usiamo Enumeration
     private SezioneEnum sezione;
