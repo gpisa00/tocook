@@ -1,5 +1,6 @@
 package it.arteprogrammazione.tocook;
 
+import it.arteprogrammazione.tocook.framework.Framework;
 import it.arteprogrammazione.tocook.oop.CucinaConcreta;
 import it.arteprogrammazione.tocook.oop.CucinaInterfaccia;
 import it.arteprogrammazione.tocook.oop.SezioneEnum;
@@ -9,17 +10,19 @@ public class Main {
 
     private static CucinaInterfaccia cucina;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
 //        System.out.println("\n###### CUCINA TOP-DOWN ##########");
 //
 //        cuociProcedurale();
 
-        System.out.println("\n-------------------------------------------------");
+//        System.out.println("\n-------------------------------------------------");
+//
+//        System.out.println("\n###### CUCINA OOP ##########");
+//
+//        cuociOOP();
 
-        System.out.println("\n###### CUCINA OOP ##########");
-
-        cuociOOP();
+        Framework.startFramework(new PastaConcretaFW());
     }
 
     private static void cuociProcedurale() {
