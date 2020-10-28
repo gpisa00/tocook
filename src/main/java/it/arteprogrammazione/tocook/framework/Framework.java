@@ -4,7 +4,7 @@ public final class Framework {
 
     private static CucinaInterfacciaFW cucina = new CucinaConcretaFW();
 
-    public static void startFramework(PastaAstrattaFW pasta) throws Exception{
+    public static void startFramework(PastaAstrattaFW pasta){
         cucina.cuociPasta(pasta);
     }
 
